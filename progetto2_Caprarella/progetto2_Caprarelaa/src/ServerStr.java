@@ -40,5 +40,10 @@ public class ServerStr {
             System.out.println("9 SERVER: fine elaborazione ... buona notte!");
             client.close();
         }
+        } catch(Exception e){
+            System.out.println(e.getMessage());
+            System.out.println("Non lo so");
+            System.exit(1);
+        }
     }
 }
